@@ -62,3 +62,4 @@ def text_to_speech(text, voice=""):
     response = requests.post(api_url, headers=headers, json=json_data)
     print('Text-to-Speech response:', response)
     return response.content
+
